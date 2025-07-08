@@ -1,0 +1,17 @@
+.search-filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+        gap: 10px;
+    }
+}
+
+.results-sort {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

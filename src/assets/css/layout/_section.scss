@@ -1,0 +1,23 @@
+.results-section {
+    padding: 40px 0;
+    min-height: 200px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+
+    i {
+        font-size: 2rem;
+        animation: spin 1s linear infinite;
+        color: var(--primary-color);
+    }
+}
+
+.footer {
+    background: rgba(30, 41, 59, 0.8);
+    padding: 40px 0;
+    margin-top: 60px;
+    border-top: 1px solid var(--border-color);
+}

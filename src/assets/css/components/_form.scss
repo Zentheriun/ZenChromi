@@ -1,0 +1,28 @@
+.search-input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    padding: 0 15px;
+
+    &::placeholder {
+        color: var(--text-secondary);
+    }
+}
+
+.advanced-option input,
+.advanced-option select {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+
+    &:focus {
+        outline: none;
+        border-color: var(--primary-color);
+    }
+}

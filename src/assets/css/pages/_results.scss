@@ -1,0 +1,17 @@
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+}
+
+.results-info {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}

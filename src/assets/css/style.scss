@@ -1,0 +1,46 @@
+// Importar estilos base
+@use 'base/reset';
+@use 'base/variables';
+@use 'base/typography';
+@use 'base/layout';
+@use 'base/animations';
+
+// Importar estilos de componentes
+@use 'components/button';
+@use 'components/card';
+@use 'components/form';
+@use 'components/pagination';
+@use 'components/messages';
+@use 'components/navbar';
+@use 'components/footer';
+@use 'components/search-box';
+@use 'components/filter-sort';
+@use 'components/advanced-search';
+@use 'components/result-card';
+@use 'components/stats-section';
+@use 'components/no-results';
+
+// Importar estilos de layout (estructura)
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/section';
+
+// Importar estilos de páginas específicas
+@use 'pages/home';
+@use 'pages/results';
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1f1f2e;
+  --text-color: #eeeeee;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
