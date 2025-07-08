@@ -1,8 +1,8 @@
 // apiService.js
 import AdvancedSearch from '../componets/AdvancedSearch'; // Importar para obtener filtros avanzados
 
-const API_KEY = 'AIzaSyDmOh5q_9vRT8G3mnjB_jQSDKsaqM_RsiI'; // Reemplaza con tu clave API real
-const CX = 'e45b4d823a45b464b'; // Reemplaza con tu CX real
+const API_KEY = 'TU-API'; // Reemplaza con tu clave API real
+const CX = 'TU-ID-MOTOR'; // Reemplaza con tu CX real
 const BASE_URL = 'https://www.googleapis.com/customsearch/v1';
 
 const apiService = (() => {
